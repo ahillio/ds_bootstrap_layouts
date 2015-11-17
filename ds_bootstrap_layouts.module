@@ -66,7 +66,18 @@ function ds_bootstrap_layouts_ds_layout_info() {
     'form' => TRUE,
     'image' => TRUE,
   );
-    
+
+  $layouts['bootstrap_4_8_cf'] = array(
+    'label' => t('Bootstrap Two Columns: 4-8 Content First'),
+    'path' => $twocol . 'boostrap_4_8_cf',
+    'regions' => array(
+      'left' => t('Left'),
+      'right' => t('Right'),
+    ),
+    'form' => TRUE,
+    'image' => TRUE,
+  );
+
   $layouts['bootstrap_5_7'] = array(
     'label' => t('Bootstrap Two Columns: 5-7'),
     'path' => $twocol . '/bootstrap_5_7',
