@@ -69,7 +69,7 @@ function ds_bootstrap_layouts_ds_layout_info() {
 
   $layouts['bootstrap_4_8_cf'] = array(
     'label' => t('Bootstrap Two Columns: 4-8 Content First'),
-    'path' => $twocol . 'boostrap_4_8_cf',
+    'path' => $twocol . '/bootstrap_4_8_cf',
     'regions' => array(
       'left' => t('Left'),
       'right' => t('Right'),
