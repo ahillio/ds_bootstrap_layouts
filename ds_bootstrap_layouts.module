@@ -22,6 +22,17 @@ function ds_bootstrap_layouts_ds_layout_info() {
     'form' => TRUE,
     'image' => TRUE,
   );
+  $layouts['bootstrap_1col_stacked'] = array(
+    'label' => t('Bootstrap One Column Stacked'),
+    'path' => $onecol . '/bootstrap_1col_stacked',
+    'regions' => array(
+      'top' => t('Header'),
+      'central' => t('Content'),
+      'bottom' => t('Footer'),
+    ),
+    'form' => TRUE,
+    'image' => TRUE,
+  );
 
   // Two columns.
   $layouts['bootstrap_1_11'] = array(
@@ -69,7 +80,7 @@ function ds_bootstrap_layouts_ds_layout_info() {
 
   $layouts['bootstrap_4_8_cf'] = array(
     'label' => t('Bootstrap Two Columns: 4-8 Content First'),
-    'path' => $twocol . 'boostrap_4_8_cf',
+    'path' => $twocol . '/bootstrap_4_8_cf',
     'regions' => array(
       'left' => t('Left'),
       'right' => t('Right'),
